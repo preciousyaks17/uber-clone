@@ -3,12 +3,11 @@ module.exports = function (api) {
   return {
     presets: ["babel-preset-expo"],
     plugins: [
-      "nativewind/babel",
       [
         "module-resolver",
         {
           alias: {
-            "@": "./src", // '@' points to the 'src' folder
+            "@": "./", // Set '@' to the root directory
           },
         },
       ],
