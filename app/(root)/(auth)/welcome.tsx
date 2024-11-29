@@ -27,9 +27,11 @@ const Onboarding = () => {
         }
         onIndexChanged={(index) => setActiveIndex(index)}
       >
-        {onboarding.map((item) => (
-          <View>
-            <Text>{item.title}</Text>{" "}
+        {onboarding.map((item, index) => (
+          <View key={index} className="flex-1 items-center justify-center">
+            <Text className="text-black text-lg font-JakartaBold">
+              {item.title}
+            </Text>
           </View>
         ))}
       </Swiper>
