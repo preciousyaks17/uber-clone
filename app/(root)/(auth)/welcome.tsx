@@ -1,7 +1,7 @@
 import { Text, TouchableOpacity, View } from "react-native";
 import { router } from "expo-router";
 import Swiper from "react-native-swiper";
-import { onboarding } from "./constants";
+import { onboarding } from "../../../constants";
 import { useRef, useState } from "react";
 import { SafeAreaView } from "react-native-safe-area-context";
 const Onboarding = () => {
