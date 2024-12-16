@@ -1,3 +1,4 @@
+//this page is used to create a custom input field component
 import {
   TextInput,
   View,
